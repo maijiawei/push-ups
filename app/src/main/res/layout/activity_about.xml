@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_height="50dp">
+        <ImageButton
+            android:id="@+id/back"
+            android:background="@drawable/title_bar_back_bg"
+            android:layout_width="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="关于"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/back"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:background="@color/app_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/pushup_anim"/>
+        <TextView
+            android:layout_below="@id/pic"
+            android:gravity="center"
+            android:text="俯卧撑助手1.0\nQQ群：174354255"
+            android:textSize="16dp"
+            android:textColor="#666"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

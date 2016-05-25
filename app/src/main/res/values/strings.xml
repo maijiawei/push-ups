@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">俯卧撑助手</string>
+    <string name="complete_time">%1$d分%2$d秒</string>
+    <string name="complete_number">%1$s个</string>
+    <string name="complete_kcal">%1$s千卡</string>
+</resources>
